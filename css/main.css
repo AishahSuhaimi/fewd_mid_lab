@@ -14,6 +14,223 @@
 
 /* Globals */
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
+
+}
+.rover-header-container {
+  width: 100%;
+  background-color: white;
+  margin-inline-start: 6%;
+  margin-inline-end: 6%;
+  
+  display: grid;
+  /* grid-template-columns:800px 150px 50px; */
+  grid-template-columns: 80% 20% 0%;
+  padding-top: 10px;
+}
+.rover-header-left {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.navigation a {
+  text-decoration: none;
+  color: grey;
+  align-items: center;
 }
 
+/* .rover-header-right{
+  display:flex;
+  justify-content: right;
+}  */
+
+.mobile {
+  display: none;
+}
+.rover-hero-hp-container{
+  display: none;
+  height:200px;
+  margin-top: 50px;
+}
+.rover-cta-mobile{
+  background-color:#14a96d;
+  width:100%;
+  height:50px;
+  border-radius: 10px;
+
+}
+@media (max-width: 500px) {
+  .rover-header-right-mobile {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  .rover-hero-container{
+    display: none;
+  }
+  .rover-hero-hp-container{
+    display: block;
+  }
+  
+}
+
+.rover-hero-container {
+  width:100%;
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  height: 700px;
+}
+.rover-button {
+  background: #14a96d;
+  color: white;
+  width: 30%;
+  border: none;
+  height:50px;
+  border-radius:10px;
+}
+.rover-hero-container h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:xx-large;
+}
+.content{
+ position: relative;
+ top:40%;
+left:6%;
+ padding-right: 20px;
+ text-align: justify;
+ width:50%;
+ 
+}
+.content p{
+  font-size: large;
+}
+.rover-middle-section{
+  margin-inline-start: 6%;
+  margin-inline-end: 6%;
+}
+.rover-middle-section h2{
+  text-align: center;
+  margin-top: 50px;
+}
+.rover-two-boxes-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 3%;
+  
+}
+.rover-fact-indiv{
+  display:grid;
+  grid-template-columns: 10% 70%;
+  gap:13px;
+  
+}
+.rover-fact-indiv img{
+width: 90%;
+}
+.rover-cta-box{
+  width:100%;
+  margin-left:60px;
+}
+.rover-cta-container{
+  border: 1px solid #cfd7de;
+  width:80%;
+  height:70%;
+  margin-top: 2%;
+ 
+}
+.rover-cta-header{
+  display:flex;
+  background-color:#f4f5f6;
+  height:40px;
+}
+.set {
+  line-height: 90%;
+}
+.rover-cta{
+background: #14a96d;
+  color: white;
+  width: 30%;
+  border: none;
+  height:50px;
+  border-radius:10px;
+}
+.rover-cta-box{
+  width:100%;
+  line-height: 30px;
+}
+.rover-protections, {
+  font-size: 80%;
+  text-align: center;
+  
+  
+}
+.rover-protections a{
+  text-decoration: none;
+  color: #14a96d;
+}
+.img-container{
+  margin-top: 100px;
+  margin-inline-start:6%;
+  margin-inline-end: 6%;
+  background-image: url(/img/lady-with-her-dogs.jpg);
+  position: relative; 
+  background-size: cover;
+  height: 500px;
+  top: 30%;
+}
+.rover-action-quote-container{
+position:absolute;
+top:-70px;
+left:100px;
+background-color: white;
+border:1px solid #cfd7de;
+width:33%;
+height:350px;
+padding-left:2%;
+margin: 20px;
+
+}
+.rover-action-dash{
+  border-bottom:2px solid #14a96d;
+  width:15%;
+  
+  margin: 20px;
+}
+.rover-quote {
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 20px;
+  /* text-align:justify; */
+}
+.rover-quote span{
+color:#66727c ;
+}
+.bottom-quote{
+  margin: 20px;
+  margin-top: 50px;
+}
+.bottom-quote a{
+text-decoration: none;
+color: #14a96d;
+}
+.rover-123-container{
+  margin-top:50px;
+}
+.rover-123-container-title{
+  text-align: center;
+}
+.rover-123-item-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  text-align: center;
+  margin-top: 100px;
+  margin-inline-start: 6%;
+  margin-inline-end: 6%;
+  
+}
+.rover-123-item img{
+width: 100px;
+height:100px;
+}
